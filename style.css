@@ -1,0 +1,396 @@
+/*
+Theme Name: when the city dies, we rule the skies
+Theme URI: http://rice.hugs.nu
+Description: Greyscale, single column, opaque content.
+Author: Alice
+Author URI: http://rice.hugs.nu
+
+*/
+
+@font-face {
+	font-family: time;
+	src: url('time.ttf');
+}
+
+body {
+background-color : #333333;
+background-image: url('http://i855.photobucket.com/albums/ab118/babygirlsaranghae/576678.png');
+background-attachment: fixed;
+padding : 0;
+margin : 0;
+font : normal 80% arial, verdana, sans-serif;
+line-height : 160%;
+color : #333333;
+}
+
+#container{
+width:900px;
+margin:4% auto 4% auto;
+background-color:#eee;
+border: #333333 solid 2px;
+opacity: 0.9;
+}
+
+#entry{
+padding-bottom:5px;
+}
+
+#header {
+background: transparent;
+margin:0 auto 0 auto;
+padding: 30px 0 0 0;
+height:100px;
+color:#333333;
+font: normal 590% time;
+text-align:center;
+letter-spacing:-2px;
+}
+
+#sub{
+background: transparent;
+text-transform:uppercase;
+font: normal 70% time;
+letter-spacing:2px;
+text-align:center;
+padding: 0 0 20px 0;
+width: 85%;
+border-bottom: 1px solid #999999;
+margin:0 auto 0 auto;
+}
+
+#nav{
+border-bottom: 1px solid #999999;
+margin: 0 auto 0 auto;
+width: 85%;
+}
+
+#navigation{
+text-align:center;
+}
+
+#navigation li{
+margin: 0 0 20px 0;
+width: 100%;
+background: transparent;
+display: inline;
+}
+
+#navigation li a{
+list-style-type : none;
+list-style : none;
+width: auto;
+margin: 0;
+text-decoration: none;
+font: normal 100% georgia;
+padding:20px;
+letter-spacing:1px;
+text-transform: uppercase;
+font-weight: normal;
+background: transparent;
+color:#888;
+}
+
+#navigation li a:hover{
+color:#000;
+}
+
+#footer-sidebar {
+display:block;
+height: 200px;
+width: 85%;
+margin: 0 auto 0 auto;
+clear:both;
+}
+
+#footer-sidebar1 {
+float: left;
+width: 30%;
+margin-right:0;
+height:100%;
+border-top: 1px solid #999;
+}
+
+#footer-sidebar2 {
+float: left;
+width: 30%;
+margin-left:5%;
+margin-right:5%;
+height:100%;
+border-top: 1px solid #999;
+}
+
+#footer-sidebar3 {
+float: right;
+width: 30%;
+margin-left:0;
+height:100%;
+border-top: 1px solid #999;
+}
+
+.box{
+padding:5px;
+}
+
+#content {
+margin: 15px auto 15px auto;
+width: 85%;
+} 
+
+#footer img{
+opacity:0.6;
+}
+
+#footer img:hover{
+opacity:1;
+}
+
+a.net:link, a.net:visited, a.net:active, a.net:hover{
+border: 0;
+}
+
+#footer{
+border-top: 1px solid #999;
+width:85%;
+margin:0 auto 0 auto;
+clear:both;
+padding: 20px 0 20px 0;
+}
+
+h1 {
+font: normal 250% time;
+color:#333;
+text-align:center;
+margin: 15px auto 0 auto;
+}
+
+h6{
+font: normal 250% time;
+color:#333;
+text-align:center;
+margin: 15px auto 0 auto;
+}
+
+a.blog:link, a.blog:visited{
+color:#333;
+}
+
+a.blog:hover, a.blog:active{
+color: #666;
+}
+
+h2 {
+font: normal 180% time;
+text-align:center;
+margin:10px;
+}
+
+h3 {
+margin:0 auto 5px auto;
+font: normal 80% time;
+text-transform: uppercase;
+letter-spacing: 2px;
+color:#565656;
+text-align:center;
+}
+
+h3 a:link, h3 a:visited{
+color:#333;}
+
+h3 a:hover, h3 a:active{
+color:#999;}
+
+h4{
+margin:30px 0 20px 0;
+font: italic 200% georgia;
+background-color:#ccc;
+line-height:3px;
+}
+
+h5{
+font: normal 150% georgia;
+color:#666;
+text-transform: uppercase;
+text-align:center;
+margin:0 0 10px 0;
+padding:20px 0 20px 0;
+border-bottom: 1px #999 solid;
+border-top: 1px #999 solid;
+}
+
+a:link, a:visited {
+color: #767676;
+text-decoration:none;
+}
+
+a:hover {
+color:#000;
+}
+
+b, strong {
+}
+
+u,underline{
+border-bottom: #ccc 2px solid;
+}
+
+s, strike, del {
+color:#ccc;
+}
+
+blockquote{
+background-color: transparent;
+padding: 10px;
+margin:30px;
+background-color:#dcdcdc;
+}
+
+.more{
+font: normal 90% georgia;
+text-decoration:none;
+text-transform:uppercase;
+margin:10px 0 0 0;
+}
+
+a.more-link:link, a.more-link:visited{
+color:#666;
+}
+
+a.more-link:hover, a.more-link:active{
+border-bottom:none;
+color:#999;
+}
+
+#totop{
+	position:fixed;
+	right:0em;
+	bottom:0em;
+	color:#eee;
+	font: normal 700% time;
+	padding-right:50px;
+	margin-bottom:-30px;
+	font-weight:bold;
+	opacity:0.4;
+	background-image:url('http://i855.photobucket.com/albums/ab118/babygirlsaranghae/tumblr_m6gqlfh8nY1r729r3.png');
+	background-repeat:no-repeat;
+	}
+	
+#totop:hover{
+opacity:0.6;
+}
+
+.pn{
+font-size:130%;
+font:italic 130% georgia;
+}
+
+.drr{
+color:#666;
+font:italic 130% georgia;
+float:left;
+padding-bottom:30px;
+}
+
+.dr{
+color:#666;
+font:italic 130% georgia;
+float:right;
+}
+
+.center {
+text-align : center;
+margin : 0 auto 0 auto;
+}
+
+ul{
+list-style-type:circle;
+padding:0 0 0 3%;
+}
+
+hr{
+border: 1px solid #888; 
+}
+
+.textInput, input, textarea, select
+{
+border: none;
+background: transparent;
+font:normal 100% arial;
+border: 1px solid #999;
+padding:6px;
+color:#666;
+}
+
+code, pre, xmp, plaintext, listing {
+font : normal 100% courier new;
+}
+
+
+::selection {
+background-color: #eee;
+font-weight:normal;
+color:#000;
+}
+
+::-moz-selection {
+background-color: #eee;
+font-weight:normal;
+color:#000;
+}
+
+.thecomment {
+margin: 10px 0 15px 0;
+}
+
+.author{
+font: normal 250% time;
+text-transform:capitalize;
+}
+
+a.author:link, a.author:visited{
+font: normal 250% time;
+text-transform:capitalize;
+}
+
+.footnotes {
+  font-size: 85%;
+  padding: 10px 0 10px 0;
+}
+
+.footnotes ol {
+  margin: 0px 0px 0px 3%;
+padding:0;
+}
+
+sup.footnote a {
+  text-decoration: none;
+  font: normal 90%/100% georgia;
+}
+
+sup.footnote {
+}
+
+.footnotereverse a {
+  padding: 0 0 0 5px;
+  text-decoration: none;
+}
+
+.left {
+text-align : left;
+float : left;
+width : auto;
+}
+
+.right {
+text-align : right;
+float : right;
+width : auto;
+}
+
+acronym {
+border-bottom: 1px dotted #999;
+}
+
+img.avatar{
+border-top-right-radius:25px; 
+border-bottom-left-radius:25px;
+}
